@@ -7,7 +7,7 @@
     "datocms-client": "^0.7.1",
     "gatsby": "^1.9.247",
     "gatsby-image": "^1.0.55",
-    "gatsby-link": "^1.6.40",
+    "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "1.0.26",
     "gatsby-plugin-snipcart": "^1.0.6",

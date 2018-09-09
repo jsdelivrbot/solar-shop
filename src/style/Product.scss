@@ -61,7 +61,7 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  color: $very-dark-greyish-blue;
+  color: #2e3840;
 }
 
 .Product__price {
@@ -75,11 +75,11 @@
   flex: 1;
   text-align: center;
   text-transform: uppercase;
-  background: $blue-text;
+  background: #009cbf;
   padding: 10px 20px;
-  color: $white;
+  color: #FFFFFF;
   position: relative;
-  font-family: $font-bold;
+  font-family: "ProximaNova-Bold", arial, sans-serif;
 
   &:hover {
     text-decoration: underline;

@@ -9,11 +9,11 @@
 header {
   .brand {
     float: left;
-    color: #fff;
+    color: #ffffff;
     display: inline-block;
     &:hover {
       float: left;
-      color: #fff;
+      color: #ffffff;
       display: inline-block;
     }
   }
@@ -35,7 +35,7 @@ header {
 .Header__title {
   flex: 1;
   padding: 20px 0;
-  font-family: $font-reg;
+  font-family: "ProximaNova-Reg", arial, sans-serif;
   font-style: italic;
 
   a {
