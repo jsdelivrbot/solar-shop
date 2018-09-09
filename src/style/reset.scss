@@ -50,8 +50,8 @@ body {
   background: #ededed;
   min-width: 240px;
   -webkit-text-size-adjust: none; /* The text size is not adjusted for Safari on iPhone */
-  font-size: $body;
-  color: $black;
+  font-size: 15px;
+  color: #000000;
 }
 
 ol, ul {
