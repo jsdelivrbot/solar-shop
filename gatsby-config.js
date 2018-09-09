@@ -79,6 +79,8 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-datocms",
       options: {
@@ -93,6 +95,13 @@ module.exports = {
         apiKey: "MDZhMWYyZTQtM2JkNy00ZmM5LTg5NWMtMTdkYThjNmFmYzU4NjM2NzE4NjgxNjczMDkxMTMw",
         autopop: true
       }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `image`,
+        path: `${__dirname}/src/images/`,
+      },
     }
   ]
 };
