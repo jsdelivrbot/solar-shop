@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Reg';
+  src: url(https://www.solarcity.co.nz/themes/solarcity/css/fonts/ProximaNova-Reg.otf) format("opentype"), url(https://www.solarcity.co.nz/themes/solarcity/css/fonts/ProximaNova-Reg-webfont.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url(https://www.solarcity.co.nz/themes/solarcity/css/fonts/Proxima-Nova-Semibold.otf) format("opentype"), url(https://www.solarcity.co.nz/themes/solarcity/css/fonts/Proxima-Nova-Semibold.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url(https://www.solarcity.co.nz/themes/solarcity/css/fonts/ProximaNova-Bold.otf) format("opentype"), url(https://www.solarcity.co.nz/themes/solarcity/css/fonts/ProximaNova-Bold-webfont.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Thin';
+  src: url(https://www.solarcity.co.nz/themes/solarcity/css/fonts/ProximaNova-Thin.otf) format("opentype"), url(https://www.solarcity.co.nz/themes/solarcity/css/fonts/ProximaNova-Thin-webfont.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+  font-family: $font-reg;
+  margin: 0;
+  background: #ededed;
+  min-width: 240px;
+  -webkit-text-size-adjust: none; /* The text size is not adjusted for Safari on iPhone */
+  font-size: $body;
+  color: $black;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h2, h3 {
+  color: #00511f;
+  font-weight: 400;
+  font-size: 2.5em;
+  letter-spacing: 2;
+  font-family: "ProximaNova-Thin", arial, sans-serif;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+h2 .landing {
+  font-size: 68px;
+}
+
+h3 {
+  font-family: "ProximaNova-Bold", arial, sans-serif;
+  font-size: 1.125em;
+  margin-bottom: 10px
+}
+
+h3 .landing {
+  font-size: 32px;
+  font-family: "ProximaNova-Thin", arial, sans-serif;
+  color: #2C383F;
+}
+
+nav ul {
+  list-style: none
+}
+
+img {
+  height: auto
+}

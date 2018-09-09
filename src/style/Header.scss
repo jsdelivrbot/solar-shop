@@ -1,0 +1,84 @@
+.Header {
+  &__body{
+    display: flex;
+    align-items: start;
+    height: 90px; width: 100%; padding: 0px 26px 0 37px;
+  }
+}
+
+header {
+  .brand {
+    float: left;
+    color: #fff;
+    display: inline-block;
+    &:hover {
+      float: left;
+      color: #fff;
+      display: inline-block;
+    }
+  }
+}
+.Header__logo{
+  flex: 1;
+  padding-top: 45px;
+  position: relative;
+  min-height: 72px;
+  float: left;
+  color: #fff;
+  display: inline-block;
+  &:hover {
+    float: left;
+    color: #fff;
+    display: inline-block;
+  }
+}
+.Header__title {
+  flex: 1;
+  padding: 20px 0;
+  font-family: $font-reg;
+  font-style: italic;
+
+  a {
+    font-size: 6em;
+    font-weight: bold;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+  }
+}
+
+.Header__summary {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.Header__summary__line {
+  font-size: 0.8em;
+}
+
+@keyframes noise-anim {
+  $steps: 20;
+
+  @for $i from 0 through $steps {
+    #{percentage($i * (1 / $steps))} {
+      clip:rect(random(100) + px, 9999px, random(100) + px, 0);
+    }
+  }
+}
+
+@keyframes noise-anim-2 {
+  $steps: 20;
+
+  @for $i from 0 through $steps{
+    #{percentage($i * (1/$steps))}{
+      clip:rect(random(100) + px, 9999px, random(100) + px, 0);
+    }
+  }
+}
